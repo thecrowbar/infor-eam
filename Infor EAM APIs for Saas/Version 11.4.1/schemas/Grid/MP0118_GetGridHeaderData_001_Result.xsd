@@ -90,6 +90,14 @@
 						<xs:restriction base="xs:integer"/>
 					</xs:simpleType>
 				</xs:element>
+				<xs:element name="COMMIT_FLAG" minOccurs="0">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="N"/>
+							<xs:enumeration value="Y"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
 				<xs:element name="MULTIORGCOLUMN" minOccurs="0">
 					<xs:simpleType>
 						<xs:restriction base="xs:string"/>
